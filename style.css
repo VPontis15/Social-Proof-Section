@@ -74,9 +74,9 @@ h6 {
   /* Colors */
   --clr-accent-dark: hsl(300, 43%, 22%);
   --clr-accent-regular: hsl(333, 80%, 67%);
-  --clr-text-card: hsl(303, 10%, 53%);
+  --clr-text-accent: hsl(303, 10%, 53%);
   --clr-bg-body: hsl(300, 24%, 96%);
-  --clr-white: hsl(0, 0%, 100%);
+  --clr-text-card: hsl(0, 0%, 100%);
   /* --------------------------- */
 
   /* Font Sizes */
@@ -90,7 +90,13 @@ h6 {
 
   /* Font Weights */
   --fw-regular: 400;
-  --ff-medium: 500;
-  --ff-bold: 700;
+  --fw-medium: 500;
+  --fw-bold: 700;
   /* --------------- */
+}
+
+body {
+  font-size: var(--fs-main);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-main);
 }
