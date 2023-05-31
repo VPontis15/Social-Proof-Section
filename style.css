@@ -69,3 +69,28 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+:root {
+  /* Colors */
+  --clr-accent-dark: hsl(300, 43%, 22%);
+  --clr-accent-regular: hsl(333, 80%, 67%);
+  --clr-text-card: hsl(303, 10%, 53%);
+  --clr-bg-body: hsl(300, 24%, 96%);
+  --clr-white: hsl(0, 0%, 100%);
+  /* --------------------------- */
+
+  /* Font Sizes */
+  --fs-main: 0.9375rem;
+
+  /* ------------------ */
+
+  /* Font Families */
+  --ff-main: "League Spartan", sans-serif;
+  /* --------------- */
+
+  /* Font Weights */
+  --fw-regular: 400;
+  --ff-medium: 500;
+  --ff-bold: 700;
+  /* --------------- */
+}
