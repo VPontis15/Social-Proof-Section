@@ -106,9 +106,13 @@ img {
   height: 50px;
   border-radius: 50%;
 }
-
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
 .flex-row {
   display: flex;
+  align-items: center;
 }
 
 .container {
