@@ -139,4 +139,45 @@ img {
   margin-top: 1.5rem;
   color: var(--clr-text-accent);
   font-weight: var(--fw-medium);
+  font-size: 1rem;
+}
+
+.grid__item2 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: end;
+  gap: 3rem;
+}
+
+.ratings {
+  color: var(--clr-accent-dark);
+  font-weight: var(--fw-bold);
+  font-size: 1.125rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 3rem;
+}
+
+.stars {
+  background-image: url("images/icon-star.svg");
+  background-repeat: repeat-x;
+  width: 17px;
+  height: 18px;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  grid-column: 1 /-1;
+}
+
+.card__testimonial {
+  background-color: var(--clr-accent-dark);
+  padding: 2em;
+  border-radius: 10px;
+  color: var(--clr-text-card);
 }
