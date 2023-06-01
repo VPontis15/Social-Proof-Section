@@ -114,6 +114,7 @@ img {
 .flex-row {
   display: flex;
   align-items: center;
+  gap: 2rem;
 }
 
 .flex-group {
@@ -162,16 +163,19 @@ img {
 }
 
 .ratings {
+  list-style: none;
   color: var(--clr-accent-dark);
   font-weight: var(--fw-bold);
   font-size: 1.125rem;
 }
 
-.stars {
-  background-image: url("images/icon-star.svg");
-  background-repeat: repeat-x;
-  width: 17px;
-  height: 18px;
+li::before {
+  content: "";
+  background-image: url(images/icon-star.svg);
+  display: block;
+  width: 100px;
+  height: 1rem;
+  background-repeat: round;
 }
 
 .testimonials {
