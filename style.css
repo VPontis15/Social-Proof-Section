@@ -80,6 +80,7 @@ h6 {
   /* --------------------------- */
 
   /* Font Sizes */
+  --fs-heading: 3rem;
   --fs-main: 0.9375rem;
 
   /* ------------------ */
@@ -102,3 +103,24 @@ body {
   line-height: 1.5;
 }
 
+.container {
+  padding: 5em;
+}
+
+.row {
+  display: flex;
+  gap: 15em;
+}
+
+.main-heading {
+  font-size: var(--fs-heading);
+  max-width: 15ch;
+  line-height: 1;
+  color: var(--clr-accent-dark);
+  margin-bottom: 0.5em;
+}
+
+.main-paragraph {
+  max-width: 45ch;
+  color: var(--clr-text-accent);
+}
