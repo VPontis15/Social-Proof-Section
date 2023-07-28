@@ -167,8 +167,9 @@ ul li {
 
 .card__review {
   background-color: var(--clr-accent-dark);
-  padding: 1.75em;
+  margin-inline: auto;
   border-radius: 10px;
+  padding: 2em;
   color: #fff;
 }
 
@@ -186,4 +187,8 @@ ul li {
 
 .card__review-reviewer--status {
   color: var(--clr-accent-regular);
+}
+
+.card__blockquote {
+  max-width: 30ch;
 }
