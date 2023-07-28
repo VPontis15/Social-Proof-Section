@@ -108,14 +108,14 @@ ul li {
 }
 
 .container {
-  padding: 5em;
-  max-width: min(95%, 1600px);
+  max-width: min(95%, 1200px);
   margin-inline: auto;
 }
 
 .row {
   display: flex;
   gap: 15em;
+  margin-block: 5rem;
 }
 
 .main-heading {
@@ -156,4 +156,29 @@ ul li {
 }
 .rating:nth-child(3) {
   transform: translateX(100px);
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.card__review {
+  background-color: var(--clr-accent-dark);
+  padding: 1.75em;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.card__review-reviewer-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card__review-img {
+  width: 40px;
+  border-radius: 50%;
 }
