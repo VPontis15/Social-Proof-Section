@@ -114,8 +114,9 @@ ul li {
 
 .row {
   display: flex;
-  gap: 15em;
+  justify-content: space-between;
   margin-block: 5rem;
+  max-width: 85%;
 }
 
 .main-heading {
