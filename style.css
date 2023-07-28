@@ -128,7 +128,7 @@ ul li {
 }
 
 .main-paragraph {
-  max-width: 45ch;
+  max-width: 42ch;
   color: var(--clr-text-accent);
 }
 
@@ -160,16 +160,15 @@ ul li {
 }
 
 .reviews {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  display: flex;
+  gap: 2.25rem;
 }
 
 .card__review {
   background-color: var(--clr-accent-dark);
-  margin-inline: auto;
+
   border-radius: 10px;
-  padding: 2em;
+  padding: 1.8em;
   color: #fff;
 }
 
