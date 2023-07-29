@@ -161,15 +161,22 @@ ul li {
 
 .reviews {
   display: flex;
-  gap: 2.25rem;
+  gap: 2.25em;
 }
 
 .card__review {
   background-color: var(--clr-accent-dark);
 
   border-radius: 10px;
-  padding: 1.8em;
+  padding: 1.8em 2.5em;
   color: #fff;
+}
+
+.card__review:nth-child(2) {
+  transform: translateY(30px);
+}
+.card__review:nth-child(3) {
+  transform: translateY(60px);
 }
 
 .card__review-reviewer-details {
