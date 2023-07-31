@@ -200,6 +200,35 @@ ul li {
 }
 
 @media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+
+    margin-inline: auto;
+    margin-bottom: 3rem;
+  }
+
+  .main-text {
+    text-align: center;
+  }
+
+  .ratings {
+    margin-top: 2rem;
+  }
+
+  .rating:nth-child(2) {
+    transform: translateX(0);
+  }
+  .rating:nth-child(3) {
+    transform: translateX(0);
+  }
+
+  .card__review:nth-child(2) {
+    transform: translateY(0);
+  }
+  .card__review:nth-child(3) {
+    transform: translateY(0);
+  }
   .reviews {
     flex-direction: column;
 
