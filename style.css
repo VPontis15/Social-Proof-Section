@@ -212,6 +212,10 @@ ul li {
     text-align: center;
   }
 
+  .main-paragraph {
+    margin-inline: auto;
+  }
+
   .ratings {
     margin-top: 2rem;
   }
