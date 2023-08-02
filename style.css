@@ -149,9 +149,9 @@ ul li {
 
 .rating::before {
   content: "";
-  display: block;
+  display: inline-block;
+  margin-right: 1rem;
   width: 100px;
-  
   background-image: url("images/icon-star.svg");
   background-repeat: space;
   height: 1rem;
