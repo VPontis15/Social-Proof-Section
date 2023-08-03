@@ -205,6 +205,10 @@ ul li {
 }
 
 @media (max-width: 900px) {
+  .container {
+    padding-block: 5em;
+  }
+
   .row {
     flex-direction: column;
     align-items: center;
@@ -223,6 +227,16 @@ ul li {
 
   .ratings {
     margin-top: 2rem;
+  }
+
+  .rating {
+    text-align: center;
+  }
+
+  .rating::before {
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 0.5rem;
   }
 
   .rating:nth-child(2) {
